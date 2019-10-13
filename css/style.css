@@ -1,0 +1,527 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #E4E4E4;
+}
+
+#socialbar {
+  width: 100%;
+  height: 37px;
+  background-image: linear-gradient(to right, #4F5565, #181C39);
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#socialbar ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#socialbar ul li {
+  list-style: none;
+}
+
+#socialbar ul li a {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+}
+
+#socialbar ul li a:hover {
+  color: #4F5565;
+}
+
+#navbar {
+  position: fixed;
+  background: #EAA613;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 37px;
+}
+
+#logo {
+  color: white;
+  height: 57px;
+  line-height: 50px;
+  float: left;
+  margin-left: 80px;
+  margin-right: 100px;
+}
+
+#logo img {
+  height: 57px;
+}
+
+nav {
+  float: left;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  height: 57px;
+  line-height: 57px;
+  padding: 0 33px;
+  color: white;
+  text-decoration: none;
+  display: block;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  font-style: italic;
+  letter-spacing: 1px;
+  font-size: 19px;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  border-left: 1px solid white;
+}
+
+.brdright {
+  border-right: 1px solid white;
+}
+
+nav ul li a:hover {
+  background-color: #D98F22;
+  color: #340807;
+  transition: 0.5s;
+}
+
+.menu-toggle {
+  color: white;
+  float: right;
+  line-height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+}
+
+.menu-toggle:hover {
+  color: #340807;
+}
+
+#container {
+  width: 100%;
+  background: #E4E4E4;
+  display: flex;
+  flex-direction: column;
+}
+#container404 {
+  width: 80%;
+  height: 1200px;;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#mainhead {
+  width: 100%;
+  height: 900px;
+  background-image: url("../imgs/headerbg.jpg");
+  background-position: center;
+  background-size: cover;
+  font-family: 'Fira Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+#mainheadgallery {
+  width: 100%;
+  height: 500px;
+  background-image: url("../imgs/gallery.jpg");
+  background-position: top;
+  background-size: cover;
+  font-family: 'Fira Sans', sans-serif;
+  text-align: center;
+}
+
+#about {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+#headcontent {
+  width: 100%;
+  text-align: center;
+  padding-top: 180px;
+
+}
+
+#headcontentgallery {
+  width: 100%;
+  text-align: center;
+  padding-top: 180px;
+  font-size: 30px;
+  color: #EAA613;
+  letter-spacing: 3px;
+}
+#headcontentabout {
+  width: 100%;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 25px;
+  color: #181C39;
+  letter-spacing: 3px;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+#mainhead img {
+  width: 300px;
+}
+
+#mainhead h1 {
+  color: #181C39;
+  letter-spacing: 2px;
+}
+
+#mainhead h2 {
+  font-size: 21px;
+  color: #181C39;
+}
+
+#mainhead h2:hover {
+  color: #C51010;
+  cursor: pointer;
+}
+
+#lineup {
+  width: 100%;
+  display: flex;
+  flex direction: row;
+  justify-content: space-around;
+}
+
+#linetitle {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  width: 90%;
+  color: #181C39;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Fira Sans', sans-serif;
+  text-align: center;
+}
+
+#linetitle p {
+  background-color: #C51010;
+  color: white;
+  height: 10px;
+  font-size: 9px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.stage {
+  background-image: linear-gradient(to top, #4F5565 0%, #181C39 100%);
+  width: 30%;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  font-family: 'Fira Sans', sans-serif;
+  -webkit-box-shadow: inset 0px 0px 7px 2px rgba(24, 28, 57, 1);
+  -moz-box-shadow: inset 0px 0px 7px 2px rgba(24, 28, 57, 1);
+  box-shadow: inset 0px 0px 7px 2px rgba(24, 28, 57, 1);
+}
+
+.stage h2 {
+  color: #EAA613;
+}
+
+.stage p {
+  text-align: center;
+  border-bottom: 1px dotted #EAA613;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 50px;
+}
+
+footer {
+  background-color: #D98F22;
+  height: 30px;
+  color: white;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  letter-spacing: 1px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+#festivalimgs {
+
+  font-size: 0;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  display: -webkit-box;
+  display: flex;
+  margin-top: 20px;
+}
+
+#festivalimgs div {
+  flex: auto;
+  width: 300px;
+  margin: 5px;
+  margin-right: 10px;
+}
+
+#festivalimgs div img {
+  width: 100%;
+  height: auto;
+  border: 2px solid #EAA613;
+}
+#aboutlogo {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+#aboutlogo img {
+
+  height: 50px;
+}
+#img13 {
+  display: none;;
+}
+
+input[type=text], select, textarea {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 17px 20px;
+  border: 2px solid #EAA613;
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  background: #4F5565;
+  color: white;
+  resize: vertical;
+  -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.36);
+  box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.36);
+  font-size: 16px;
+}
+
+input[type=text]:hover, select:hover, textarea:hover {
+  border-radius: 6px;
+  transition: 0.5s;
+}
+
+input[type=submit] {
+  background-color: #EAA613;
+  color: #292929;
+  padding: 15px 100px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.36);
+  box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.36);
+  font-size: 18px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+input[type=submit]:hover {
+  background-color: #4F5565;
+  color: white;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+
+.formcontainer {
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 60px;
+  margin-top: 60px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+font-family: 'ZCOOL QingKe HuangYou', cursive;
+  color: #292929;
+}
+
+.formcontainer h3 {
+  text-align: center;
+  font-size: 40px;
+  color: #292929;
+  letter-spacing: 3px;
+}
+
+label {
+  width: 80%;
+  padding-left: 5px;
+  font-size: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#error {
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 10px;
+color: yellow;
+font-family: 'VT323', monospace;
+
+}
+#error h1 {
+  font-size: 150px;
+   color: yellow;
+   text-shadow:
+       3px 3px 0 red,
+     -1px -1px 0 red,
+      1px -1px 0 red,
+      -1px 1px 0 red,
+       1px 1px 0 red;
+}
+#error h2 {
+  font-size: 40px;
+   color: yellow;
+   text-shadow:
+       3px 3px 0 red,
+     -1px -1px 0 red,
+      1px -1px 0 red,
+      -1px 1px 0 red,
+       1px 1px 0 red;
+}
+@media screen and (max-width: 600px) {
+
+  #mainhead {
+    font-size: 15px;
+  }
+
+  #festivalimgs div img {
+    margin: 0px;
+    padding: 0px;
+  }
+  #about {
+    width: 90%;
+
+  }
+  #headcontentabout {
+    width: 90%;
+margin-left: auto;
+margin-right: auto;
+    font-size: 18px;
+    letter-spacing: 1px;
+
+  }
+}
+
+@media (max-width: 800px) {
+  #navbar {
+    padding: 0 20px;
+  }
+  #about {
+    width: 80%;
+
+  }
+  #headcontentabout {
+    width: 80%;
+margin-left: auto;
+margin-right: auto;
+    font-size: 20px;
+    letter-spacing: 1px;
+
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  nav {
+    position: absolute;
+    width: 100%;
+    background: #EAA613;
+    top: 50px;
+    left: -100%;
+    transition: 0.5s;
+  }
+
+  nav.active {
+    left: 0;
+  }
+
+  nav ul {
+    display: block;
+    text-align: center;
+  }
+
+  nav ul li a {
+    border-top: 1px solid white;
+    border-left: none;
+    background-color: #D98F22
+  }
+
+  .brdright {
+    border-right: none;
+    border-bottom: 1px solid white;
+  }
+
+  nav ul li a:hover {
+    background-color: #EAA613;
+    transition: 0.5s;
+  }
+
+  #logo {
+    margin-left: 10px;
+  }
+
+  #mainhead img {
+    width: 250px;
+  }
+
+  #lineup {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .stage {
+    width: 90%;
+    margin-bottom: 50px;
+  }
+
+  #linetitle h1 {
+    font-size: 25px;
+  }
+
+  #linetitle h3 {
+    font-size: 15px;
+  }
+
+
+}
